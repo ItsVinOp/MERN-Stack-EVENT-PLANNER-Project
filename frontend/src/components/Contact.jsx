@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4005/api/v1/message/send",
+        "https://powerful-foal-galoshes.cyclic.app/api/v1/message/send",
         {
           name,
           email,
